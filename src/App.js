@@ -37,11 +37,11 @@ import Appointment from "./Pages/Appointment";
 
 // import Appointment from "./Pages/Appointment";
 function App() {
-  const { currentUser } = useContext(AuthContext);
+  // const { currentUser } = useContext(AuthContext);
 
-  const RequireAuth = ({ children }) => {
-    return currentUser ? children : <Navigate to="/signin"></Navigate>;
-  };
+  // const RequireAuth = ({ children }) => {
+  //   return currentUser ? children : <Navigate to="/signin"></Navigate>;
+  // };
   return (
     <div className="App background">
       <BrowserRouter basename="/mg-main">
