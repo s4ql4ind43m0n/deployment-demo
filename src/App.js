@@ -44,19 +44,10 @@ function App() {
   };
   return (
     <div className="App background">
-      <BrowserRouter>
-     
-
+      <BrowserRouter basename="/mg-main">
         <Routes>
+          <Route exact path="/mg-main" element={<Home />} />
           <Route
-            path="/home"
-            element={
-              <Layout>
-                <Homepage />
-              </Layout>
-            }
-          />
-<Route
             path="/header"
             element={
               <Layout>
@@ -68,15 +59,15 @@ function App() {
             path="/howitworks"
             element={
               <Layout>
-                <Brand/>
+                <Brand />
               </Layout>
             }
           />
-             <Route
+          <Route
             path="/whychooseus"
             element={
               <Layout>
-                <WhatMEHFOOZ/>
+                <WhatMEHFOOZ />
               </Layout>
             }
           />
@@ -97,12 +88,12 @@ function App() {
               </Layout>
             }
           />
-          
+
           <Route
             path="/:employeeType/:id"
             element={
               <Layout>
-                <Appointment/>
+                <Appointment />
               </Layout>
             }
           />
@@ -149,11 +140,11 @@ function App() {
               </Layout>
             }
           />
-            <Route
+          <Route
             path="/viewUsers"
             element={
               <Layout>
-                <Users/>
+                <Users />
               </Layout>
             }
           />
@@ -162,7 +153,7 @@ function App() {
             path="/viewUsers/:type"
             element={
               <Layout>
-                <ViewUsers/>
+                <ViewUsers />
               </Layout>
             }
           />
@@ -215,11 +206,11 @@ function App() {
               </Layout>
             }
           />
-                    <Route
+          <Route
             path="/Admin"
             element={
               <Layout>
-                <AdminPanel/>
+                <AdminPanel />
               </Layout>
             }
           />
@@ -275,7 +266,6 @@ function App() {
               </Layout>
             }
           />
-          <Route exact path="/" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>
