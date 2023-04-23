@@ -46,7 +46,7 @@ function App() {
     <div className="App background">
       <BrowserRouter basename="/mg-main">
         <Routes>
-          <Route exact path="/mg-main" element={<Home />} />
+          <Route exact path="mg-main" element={<Home />} />
           <Route
             path="/header"
             element={
