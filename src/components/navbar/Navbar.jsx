@@ -19,7 +19,7 @@ const Menu = () => (
       <Link to="/home/feature">Categories</Link>
     </p>
     <p>
-      <a href="/contact">Contact Us</a>
+      <Link to ="/contact">Contact Us</Link>
     </p>
   </>
 );
