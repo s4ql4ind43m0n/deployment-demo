@@ -45,228 +45,230 @@ function App() {
   return (
     <div className="App background">
       <BrowserRouter basename="/mg-main">
+        <Layout>
         <Routes>
           <Route exact path="mg-main" element={<Home />} />
           <Route
             path="/header"
             element={
-              <Layout>
+              
                 <Header />
-              </Layout>
+              
             }
           />
           <Route
             path="/howitworks"
             element={
-              <Layout>
+              
                 <Brand />
-              </Layout>
+              
             }
           />
           <Route
             path="/whychooseus"
             element={
-              <Layout>
+              
                 <WhatMEHFOOZ />
-              </Layout>
+              
             }
           />
           <Route
             path="/services"
             element={
-              <Layout>
+              
                 <Services />
-              </Layout>
+              
             }
           />
 
           <Route
             path="/home/types"
             element={
-              <Layout>
+              
                 <SignUpTypes />
-              </Layout>
+              
             }
           />
 
           <Route
             path="/:employeeType/:id"
             element={
-              <Layout>
+              
                 <Appointment />
-              </Layout>
+              
             }
           />
           <Route
             path="/home/types/Worker"
             element={
-              <Layout>
+              
                 <WorkerCategorySignUp />
-              </Layout>
+              
             }
           />
 
           <Route
             path="/clientSignUp"
             element={
-              <Layout>
+              
                 <ClientSignUp />
-              </Layout>
+              
             }
           />
 
           <Route
             path="/about"
             element={
-              <Layout>
+              
                 <About />
-              </Layout>
+              
             }
           />
           {/* Staff categories*/}
           <Route
             path="/staff/:subCategory"
             element={
-              <Layout>
+              
                 <SubStaff />
-              </Layout>
+              
             }
           />
           <Route
             path="/addEmployee"
             element={
-              <Layout>
+              
                 <AddEmployee />
-              </Layout>
+              
             }
           />
           <Route
             path="/viewUsers"
             element={
-              <Layout>
+              
                 <Users />
-              </Layout>
+              
             }
           />
 
           <Route
             path="/viewUsers/:type"
             element={
-              <Layout>
+              
                 <ViewUsers />
-              </Layout>
+              
             }
           />
           <Route
             path="/EmployeeFields/:type"
             element={
-              <Layout>
+              
                 <Admin />
-              </Layout>
+              
             }
           />
 
           <Route
             path="/home/categories"
             element={
-              <Layout>
+              
                 <Category />
-              </Layout>
+              
             }
           />
           <Route
             path="/home/categories/medical"
             element={
-              <Layout>
+              
                 <MedicalSub />
-              </Layout>
+              
             }
           />
           <Route
             path="/home/categories/caretakers"
             element={
-              <Layout>
+              
                 <CTSub />
-              </Layout>
+              
             }
           />
           <Route
             path="/ApplicationForm"
             element={
-              <Layout>
+              
                 <ApplicationForm />
-              </Layout>
+              
             }
           />
           <Route
             path="/worker-signin"
             element={
-              <Layout>
+              
                 <WorkerSignIn />
-              </Layout>
+              
             }
           />
           <Route
             path="/Admin"
             element={
-              <Layout>
+              
                 <AdminPanel />
-              </Layout>
+              
             }
           />
 
           <Route
             path="/home/categories/others"
             element={
-              <Layout>
+              
                 <OSCategory />
-              </Layout>
+              
             }
           />
           <Route
             path="/:employeeType/:username"
             element={
-              <Layout>
+              
                 <EmployeeProfile />
-              </Layout>
+              
             }
           />
 
           <Route
             path="/1"
             element={
-              <Layout>
+              
                 <WorkingStaff />
-              </Layout>
+              
             }
           />
 
           <Route
             path="/home/feature"
             element={
-              <Layout>
+              
                 <Features />
-              </Layout>
+              
             }
           />
           <Route
             path="/signin"
             element={
-              <Layout>
+              
                 <Login />
-              </Layout>
+              
             }
           />
 
           <Route
             path="/contact"
             element={
-              <Layout>
+              
                 <ContactForm />
-              </Layout>
+              
             }
           />
-        </Routes>
+         
+        </Routes> </Layout>
       </BrowserRouter>
     </div>
   );
