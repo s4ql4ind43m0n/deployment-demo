@@ -1,0 +1,154 @@
+
+
+h1{
+    font-size: 62px
+}
+
+
+
+.mehfoozghar__header-content {
+    flex-direction: column;
+}
+
+.mehfoozghar__header-content h1 {
+    font-size: 62px !important;
+    line-height: 75px;
+    letter-spacing: -0.04cm;
+}
+
+.mehfoozghar__header-content p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    color: rgb(255, 255, 255);
+    margin-top: 1.5rem;
+    max-width: 100%;
+}
+
+.mehfoozghar__header-content__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+    height: 70px;
+}
+
+.mehfoozghar__header-content__input input {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-weight: normal;
+    line-height: 27px;
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    padding: 0 1rem;
+    outline: none;
+    color: white;
+    border: 2px solid var(--color-footer);
+}
+.mehfoozghar__header-content__input input::placeholder{
+   color:#002f5d;
+   font-size:20px;
+}
+
+.mehfoozghar__header-content__input button {
+    background: #fa6028;
+    font-family: var(--font-family);
+    font-weight: bold;
+    line-height: 35px;
+    flex: 0.6;
+    width: 300%;
+    min-height: 70px;
+    padding: 0 1rem;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.mehfoozghar__header-content__people {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+   
+}
+
+.mehfoozghar__header-content__people img {
+    width: 181.79px;
+    height: 38px;
+}
+.hero-img{
+    height: 42rem;
+    margin:-30px;
+}
+.mehfoozghar__header-content__people p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    margin: 0 0 0 1rem;
+    text-align: center;
+}
+
+.mehfoozghar__header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    box-shadow: 100%;
+    filter: drop-shadow(20px 10px 10px rgba(0, 0, 0, 0.25));
+}
+/* 
+
+@media screen and (max-width: 1050px) {
+    .mehfoozghar__header {
+        flex-direction: column;
+    }
+    .mehfoozghar__header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .mehfoozghar__header h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .mehfoozghar__header p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .mehfoozghar__header-content__people {
+        flex-direction: column;
+    }
+    .mehfoozghar__header-content__people p {
+        margin: 0;
+    }
+    .mehfoozghar__header-content__input input,
+    .mehfoozghar__header-content__input button {
+        font-size: 16px;
+        line-height: 24px;
+    } 
+}
+
+@media screen and (max-width: 490px) {
+    .mehfoozghar__header h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .mehfoozghar__header p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .mehfoozghar__header-content__input input,
+    .mehfoozghar__header-content__input button {
+        font-size: 12px;
+        line-height: 16px;
+    } 
+} */
