@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/mg/static/css/main.88c44f9b.css",
+    "main.js": "/mg/static/js/main.2903752f.js",
+    "static/js/787.bedb50ca.chunk.js": "/mg/static/js/787.bedb50ca.chunk.js",
+    "static/media/blog3.jpg": "/mg/static/media/blog3.df9c4307c60a2bc9e6f9.jpg",
+    "static/media/nurse1.png": "/mg/static/media/nurse1.7467870eb74fb4584e27.png",
+    "static/media/blog2.PNG": "/mg/static/media/blog2.2bc5c7289d3a626107da.PNG",
+    "static/media/blog5.PNG": "/mg/static/media/blog5.6c9b063ef004ff5058aa.PNG",
+    "static/media/Group 81.png": "/mg/static/media/Group 81.2cfdf724680e3ce7e868.png",
+    "static/media/job.png": "/mg/static/media/job.d0fcea2ecc1fa9fbc3ce.png",
+    "static/media/browse.png": "/mg/static/media/browse.dc4bf3043d7d7097c474.png",
+    "static/media/service.png": "/mg/static/media/service.f9a5b336265dbf3e8f36.png",
+    "static/media/choose.png": "/mg/static/media/choose.42e6690cf39319b157a8.png",
+    "static/media/schedule.png": "/mg/static/media/schedule.5dc797fdf039423b7a9e.png",
+    "static/media/mono.png": "/mg/static/media/mono.63e64cd2485e75946cdf.png",
+    "static/media/1.svg": "/mg/static/media/1.38ab5b0ff28e3a5d196d4f11b82b053c.svg",
+    "index.html": "/mg/index.html",
+    "main.88c44f9b.css.map": "/mg/static/css/main.88c44f9b.css.map",
+    "main.2903752f.js.map": "/mg/static/js/main.2903752f.js.map",
+    "787.bedb50ca.chunk.js.map": "/mg/static/js/787.bedb50ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88c44f9b.css",
+    "static/js/main.2903752f.js"
+  ]
+}
